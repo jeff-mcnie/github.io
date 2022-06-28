@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best Practice - Class vs ID</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+
+  <header>
+    <div class="navbar">
+      <a id="top"></a>
+      <a href="../index.html">Homepage</a>
+    </div>
+  </header>
+
+  <body>
+      <h1>Best Practice - Class vs ID</h1>
+
+      <h3 class="blog-head">What is an ID</h3>
+      <p class="blog-text">ID's differ from classes in that they are used for a few different things. Firstly, they are unique! Each ID can only be used on one element, unlike classes that can be used on multiple.</p>
+      
+      <div class="blog-image">
+        <img src="../styles/images/id-example.png" alt="HTML code with examples of the id tag being used" width="300px" height="100px" title="I've been trying to start a hover text business, but I can't seem to get it off the ground.">
+        <p class="image-text">An example of the ID attribute being used. Note how the ID's are not used multiple times.</p>
+      </div>  
+      <p class="blog-text">Secondly, they can be used to target certain parts of the page so you can navigate around easier. This looks exactly the same in the code as when you would style it. If you want an example of this, inspect the element of this page and you will see the top of the page is targetted by an ID!</p>
+
+      <h3 class="blog-head">What happens if you use an ID to tag multiple elements?</h3>
+
+      <div class="blog-image">
+          <p class="image-text hidden-text">Hover on this suspense building and overly long line of text to find out what happens!</p><span class="hidden-image"><img src="../styles/images/fbi-open-up.gif"></span>
+        </a>
+      </div>
+
+      <h3 class="blog-head">What is a Class?</h3>
+      <p class="blog-text">A class is composed of two parts. One part HTML and one part CSS.</p>
+      <p class="blog-text">In html, class is an attribute which is assigned to an element. Many classes can be assigned to one element and many elements can share a class. This is a feature of classes that differs from ID.</p>
+      
+      <div class="blog-image">
+        <img src="../styles/images/class-example.png" alt="HTML code showing the use of a class attribute" width="350px" height="100px" title="Did you hover this image to see if it would change?">
+        <p class="image-text">An example of the class attribute being applied to multiple elements in HTML.</p>
+      </div>    
+
+      <p class="blog-text">In CSS, class is used as a selector to be targetted by the CSS to style the element the class is attached to. We use the format <em>.example</em> to select class attributes with our CSS. We then use rules within our {} to apply to our elements that have classes on them. We can even target multiple classes at the same time!</p>
+
+      <div class="blog-image">
+        <img src="../styles/images/Class-css-example.png" alt="CSS code showing the use of class selectors" width="350px" height="200px" title="Hello to the nice people who hover over images!">
+        <p class="image-text">An example of the class selector being used in CSS to target one and multiple classes at the same time.</p>
+      </div>
+
+      
+
+      <h3 class="blog-head">What is best practice for using class vs ID?</h3>
+      <p class="blog-text">The best practice for using class and ID is that you want to use classes when you want to apply a style to multiple elements. You use ID when you only want a style to apply to a single element. You can apply both a class and an ID to an element, just remember that the ID will override the class if they are doing the same type of styling. (color for instance).</p>
+
+      
+
+      <a href="#" class="blog-top">Back to Top</a>
+  </body>
+
+</html>
+
