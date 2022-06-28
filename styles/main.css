@@ -28,6 +28,24 @@ h2 {
     font-size: 40px;
 }
 
+.hidden-image {
+    display: none;
+}
+
+.hidden-text:hover ~ .hidden-image {
+    display: block;
+}
+
+.blog-text, .blog-head, .blog-image {
+    padding: 5px 10% 5px 10%;
+}
+
+.blog-top {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
 p {
     padding-bottom: 15px;
 }
@@ -170,8 +188,13 @@ p {
     transition-duration: 1s;
 }
 
+.image-text {
+    text-align: justify;
+}
+
 @media screen and (max-width: 480px) {
     .text {
       font-size: 30px;
       }
     }
+
