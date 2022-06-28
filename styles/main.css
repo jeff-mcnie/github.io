@@ -117,11 +117,11 @@ p {
 }
 
 .img1 {
-    background-image: url(images/img2.webp);
+    background-image: url(images/BWimg1.jpg);
 }
 
 .img1:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/img2.webp);
     transition-duration: 1s;
 }
 
