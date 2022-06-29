@@ -126,20 +126,20 @@ p {
 }
 
 .img2 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg2.jpg);
 }
 
 .img2:hover {
-    background-image: url(images/img2.webp);
+    background-image: url(images/img2.jpg);
     transition-duration: 1s;
 }
 
 .img3 {
-    background-image: url(images/img2.webp);
+    background-image: url(images/BWimg3.jpg);
 }
 
 .img3:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/img3.jpg);
     transition-duration: 1s;
 }
 
