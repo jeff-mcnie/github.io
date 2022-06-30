@@ -231,4 +231,8 @@ p {
     .header {
       background-color:mediumslateblue;
   }
+    
+    .media-image {
+      width: 200px;
+    }
 }
