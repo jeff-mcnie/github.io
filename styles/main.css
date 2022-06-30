@@ -203,3 +203,27 @@ p {
         font-size: 40px;
     }
   }
+
+  /* Adding some media rules, not sure I have the best website to demonstrate these */
+@media (max-width: 768px) {
+    .header {
+      background-color: bisque;
+    }
+
+}
+
+@media (max-width: 320px) {
+  .img1 {
+      background-image: url(images/color-img1.jpeg);
+  }
+
+  .img2 {
+      background-image: url(images/color-img2.jpg);
+  }
+
+  .img3 {
+      background-image: url(images/color-img3.jpg);
+  }
+
+
+}
