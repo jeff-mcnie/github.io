@@ -88,8 +88,8 @@ p {
 }
 
 .welcome-msg {
-  background-color: black;
-  padding: 20px;
+    background-color: black;
+    padding: 20px;
 }
 
 .img-words {
@@ -212,18 +212,17 @@ p {
 
 }
 
-@media (max-width: 320px) {
-  .img1 {
+@media (max-width: 600px) {
+    .img1 {   
       background-image: url(images/color-img1.jpeg);
   }
 
-  .img2 {
+    .img2 {
       background-image: url(images/color-img2.jpg);
   }
 
-  .img3 {
+    .img3 {
       background-image: url(images/color-img3.jpg);
   }
-
-
 }
+
