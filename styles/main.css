@@ -226,3 +226,9 @@ p {
   }
 }
 
+/* Media rule for mobile phones */
+@media (max-width: 320px) {
+    .header {
+      background-color:mediumslateblue;
+  }
+}
