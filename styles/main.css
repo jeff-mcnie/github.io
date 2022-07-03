@@ -144,47 +144,47 @@ p {
 }
 
 .img4 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg4.jpg);
 }
 
 .img4:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/color-img4.jpg);
     transition-duration: 1s;
 }
 
 .img5 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg5.jpg);
 }
 
 .img5:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/color-img5.jpg);
     transition-duration: 1s;
 }
 
 .img6 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg6.jpg);
 }
 
 .img6:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/color-img6.jpg);
     transition-duration: 1s;
 }
 
 .img7 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg7.jpg);
 }
 
 .img7:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/color-img7.jpg);
     transition-duration: 1s;
 }
 
 .img8 {
-    background-image: url(images/BWimg1.jpg);
+    background-image: url(images/BWimg8.jpg);
 }
 
 .img8:hover {
-    background-image: url(images/img1.webp);
+    background-image: url(images/color-img8.jpg);
     transition-duration: 1s;
 }
 
