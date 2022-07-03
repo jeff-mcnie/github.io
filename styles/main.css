@@ -224,6 +224,26 @@ p {
     .img3 {
       background-image: url(images/color-img3.jpg);
   }
+
+    .img4 {
+      background-image: url(images/color-img4.jpg);
+  }
+
+    .img5 {
+      background-image: url(images/color-img5.jpg);
+  }
+
+    .img6 {
+      background-image: url(images/color-img6.jpg);
+  }
+
+    .img7 {
+      background-image: url(images/color-img7.jpg);
+  }
+
+    .img8 {
+      background-image: url(images/color-img8.jpg);
+  }
 }
 
 /* Media rule for mobile phones */
