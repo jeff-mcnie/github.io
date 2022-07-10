@@ -19,33 +19,44 @@
       <h1>Javascript and the DOM</h1>
 
       <h3 class="blog-head">Javascript, HTML, CSS and You</h3>
-      <p class="blog-text">When thinking about the 3 languages, I like to think about them in relation to a human body.
+      <p class="blog-text">
+        When thinking about the 3 languages, I like to think about them in relation to a human body.
         We have the HTML which is like our bones. It provides the basic structure that we have, some bones are a little different from others, but at their core, they are all still bones.
         Then there is the CSS. I like to think of the CSS as our skin and anything on the outside of it. We have different skin colors, we can change them by tanning or not going out in the sun. 
         We can also change our hair color and fingernail length just to name a few of the many changes. This is what CSS does to our page, changes the look and feel of it.
         Finally, we have the Javascript. This is our inner workings, our lungs, our heart. Javascript is the moving parts of our page, it makes things interesting and complex.
-        It also interacts with the HTML and CSS like our body does. We can use the Javascript to change and add to the HTML and CSS through the DOM. Our body can do the same, the heart and liver interact with our body in different ways to change things or add to them.
+        It also interacts with the HTML and CSS like our body does. We can use the Javascript to change and add to the HTML and CSS through the DOM. 
+        Our body can do the same, the heart and liver interact with our body in different ways to change things or add to them.
       </p>
 
       <h3 class="blog-head">Control Flow and Loops</h3>
-      <p class="blog-text">I'm going to explain control flow and loops through the idea of eating dinner. Firstly we need to understand what control flow is. Control flow is the way in which your computer runs the code you have. 
-        This is run from top to bottom unless there is something in the code that changes the flow. This is where our loop comes in. Our loop is going to tell our computer to keep repeating a certain set of code until a condition it has been told is met.
-        So taking that into account, let's move on to dinner, and specifically a loop of eating dinner. When you eat dinner, you are effectively completing a little loop.
-        The loop looks something like this:</p>
+      <p class="blog-text">
+        I'm going to explain control flow and loops through the idea of eating dinner. 
+        Firstly we need to understand what control flow is. Control flow is the way in which your computer runs the code you have. 
+        This is run from top to bottom unless there is something in the code that changes the flow. This is where our loop comes in. 
+        Our loop is going to tell our computer to keep repeating a certain set of code until a condition it has been told is met.
+        So taking that into account, let's move on to dinner, and specifically a loop of eating dinner. 
+        When you eat dinner, you are effectively completing a little loop.
+        The loop looks something like this:
+      </p>
 
       <div class="blog-image">  
         <img class="media-image" src="../styles/images/dinner-loop.png" title="Eat that up, it's good for you" width="600px">  
       </div>
 
-      <p class="blog-text">Here we can see that we will keep taking another bite of food until our stomach is full. 
+      <p class="blog-text">
+        Here we can see that we will keep taking another bite of food until our stomach is full. 
         <br>
       </p>
       <em class="blog-text">Note: this is not actual code, just using the structure of the loop for representation.</em>
       
 
       <h3 class="blog-head">Explanation of the DOM</h3>
-      <p class="blog-text">The DOM is how javascript can target and interact with html and css code. For every element there is in html, there is an object in javascript to represent that. 
-        We can target elements, classes and id’s using the DOM. It is best to use id’s when targeting something using javascript as these are unique. This is the opposite of CSS. See: <a href="../blog/html-css.html" target="_blank">This blog I did on class vs ID</a>
+      <p class="blog-text">
+        The DOM is how javascript can target and interact with html and css code. 
+        For every element there is in html, there is an object in javascript to represent that. 
+        We can target elements, classes and id’s using the DOM. It is best to use id’s when targeting something using javascript as these are unique. 
+        This is the opposite of CSS. See: <a href="../blog/html-css.html" target="_blank">This blog I did on class vs ID</a>
         <br>
         The DOM deals with everything inside your document (html, css and javascript). There is another object called window that deals with your browser window when viewing a page.
         Here is an example of using the DOM.
@@ -55,21 +66,30 @@
         <img class="media-image" src="../styles/images/DOM-example.png" title="I don't even like red" width="500px">
       </div>
 
-      <p class="blog-text">In this example, I start by using document which holds all the objects on the page. From there I target a specific element by the ID I have assigned to it.
-        I then access the class attribute, or in this case, the classList. I then add a new class to the element with the ID of 'exampleID'. This is all done through the DOM.       
+      <p class="blog-text">
+        In this example, I start by using document which holds all the objects on the page. 
+        From there I target a specific element by the ID I have assigned to it.
+        I then access the class attribute, or in this case, the classList. 
+        I then add a new class to the element with the ID of 'exampleID'. This is all done through the DOM.       
       </p>
 
       <h3 class="blog-head">Accessing data from Arrays and Objects</h3>
-      <p class="blog-text">When accessing data in arrays, we do this using the position of the data within the array, commonly called its index. Indexes start at the number 0 and add 1 for every item in the array.
-        There are a miriad of different ways we can access the data from the array, but all of them have the use of the index number in common. One example of this is:
+      <p class="blog-text">
+        When accessing data in arrays, we do this using the position of the data within the array, commonly called its index. 
+        Indexes start at the number 0 and add 1 for every item in the array.
+        There are a miriad of different ways we can access the data from the array, but all of them have the use of the index number in common. 
+        One example of this is:
       </p>
 
       <div class="blog-image">
         <img class="media-image" src="../styles/images/array-access.png" title="Did you know that pikopiko is a fern?" width="600px">
       </div>
 
-      <p class="blog-text">When accessing the data in objects we use a different method. Objects store data differently from arrays. Whereas the arrays stored them in a group and were targetted by their index, objects store their data in key/value pairs
-        When we want to access this data, one of the ways we can do it, is by asking the object for it's key, which will then produce it's value as it's result. This is shown here:
+      <p class="blog-text">
+        When accessing the data in objects we use a different method. Objects store data differently from arrays. 
+        Whereas the arrays stored them in a group and were targetted by their index, objects store their data in key/value pairs
+        When we want to access this data, one of the ways we can do it, is by asking the object for it's key, which will then produce it's value as it's result. 
+        This is shown here:
       </p>
 
       <div class="blog-image">
@@ -77,18 +97,25 @@
       </div>
 
       <h3 class="blog-head">The helpful little Function who could</h3>
-      <p class="blog-text">I'm going to use the reference point of Bob the Builder for functions. Functions are like the characters from Bob the Builder (stick with me).
-        When there is a problem in Bobsville, Bob and his friends are called to do a task. Much like how we call upon a function to perform a certain task, Bob and his friends are all capable of performing certain tasks.<br>
-        When we write a function, we are giving the computer a set of instructions to do when the function is called upon. In Bobsville, when Dizzy (a concrete mixer) or Scoop (a digger) are called upon. They come in and run their functions. (mixing concrete or digging a hole)<br>
-        Much like functions, Bob's friends are only capable of doing what they have been made for. Our function will only execute what it has been told to do, this is the code it contains.
+      <p class="blog-text">
+        I'm going to use the reference point of Bob the Builder for functions. Functions are like the characters from Bob the Builder (stick with me).
+        When there is a problem in Bobsville, Bob and his friends are called to do a task. 
+        Much like how we call upon a function to perform a certain task, Bob and his friends are all capable of performing certain tasks.<br>
+        When we write a function, we are giving the computer a set of instructions to do when the function is called upon. 
+        In Bobsville, when Dizzy (a concrete mixer) or Scoop (a digger) are called upon. They come in and run their functions. (mixing concrete or digging a hole)<br>
+        Much like functions, Bob's friends are only capable of doing what they have been made for. 
+        Our function will only execute what it has been told to do, this is the code it contains.
       </p>
 
       <div class="blog-image">
         <img class="media-image" src="../styles/images/bob-image.jpeg" title="I didn't check if I can legally use this image. Like my cats, I believe possession is nine tenths of the law." width="500px" height="300px">
       </div>
 
-      <p class="blog-text">So why are functions useful? They are useful because they are reuseable! Once a function is made, we can call upon it many times throughout our code to perform it's task over and over again.
-        Remember Dizzy our concrete mixer. Once you have a concrete mixer, you can use it again and again to mix more concrete. Everytime you need more concrete, call on Dizzy!
+      <p class="blog-text">
+        So why are functions useful? They are useful because they are reuseable! 
+        Once a function is made, we can call upon it many times throughout our code to perform it's task over and over again.
+        Remember Dizzy our concrete mixer. Once you have a concrete mixer, you can use it again and again to mix more concrete. 
+        Everytime you need more concrete, call on Dizzy!
         There are many other reasons why functions are useful, this is just the easiest Bob the Builder related one I could think of. Don't judge me.
       </p>
         
